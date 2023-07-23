@@ -11,19 +11,7 @@ By providing a standardized platform for evaluating congestion control algorithm
 > **Note**
 > Pantheon only runs in Ubuntu 18.04
 
-
-
 > In our specific scenario, we've implemented Pantheon both on our local computer and on a remote EC2 server.
-
-
-Scripts below to run the Pantheon
-
-`cd pantheon`
-
-`python src/experiments/test.py remote --schemes "cubic"  ubuntu@{ec2_ip_address}:/home/ubuntu/pantheon --data-dir /home/{your_username}/pantheon/ -f 1 --interval 10 --run-times 2`
-
-`src/analysis/analyze.py --data-dir /home/{your_username}/pantheon/`
-
 
 Here are the reformulated instructions to run Pantheon:
 
